@@ -1,0 +1,49 @@
+﻿生成启动时间为 2017/4/5 5:44:47。
+     1>项目“D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\cdn3\cdn3.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>InitializeBuildStatus:
+         正在创建“Release\cdn3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\Program Files (x86)\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\cdn3.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cdn3.cpp deploy.cpp
+         cdn3.cpp
+         deploy.cpp
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(143): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(148): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(184): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(250): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(254): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(266): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(276): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(296): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(328): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(351): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(355): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(359): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\c++p\huawei\cdn3_3.31bellman\cdn3\cdn3\multiSourceMinCostFlow.h(423): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>deploy.cpp(113): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>deploy.cpp(283): warning C4018: “<”: 有符号/无符号不匹配
+     1>deploy.cpp(285): warning C4018: “<”: 有符号/无符号不匹配
+     1>deploy.cpp(310): warning C4018: “<”: 有符号/无符号不匹配
+     1>deploy.cpp(321): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         F:\Program Files (x86)\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\Release\cdn3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cdn3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\Release\cdn3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\Release\cdn3.lib" /MACHINE:X86 Release\cdn3.obj
+         Release\deploy.obj
+         Release\io.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         cdn3.vcxproj -> D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\Release\cdn3.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\Release\cdn3.exe;#1" /manifest Release\cdn3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\cdn3.unsuccessfulbuild”。
+         正在对“Release\cdn3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\C++P\HuaWei\cdn3_3.31Bellman\cdn3\cdn3\cdn3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.45
